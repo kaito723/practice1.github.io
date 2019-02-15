@@ -1,0 +1,223 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0 auto;
+  position: relative;
+}
+
+a{
+  color: black;
+}
+
+p{
+  font-size: 15px;
+}
+h4{
+  color: #c69200;
+}
+
+header .container{
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+}
+
+header{
+  top: 0;
+  height: 130px;
+  width: 100%;
+  background-color:#0e2537;
+  line-height: 130px;
+}
+
+.nav{
+  background-color: #0e2537;
+  text-align: center;
+  height:70px;
+}
+
+.nav-fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width:100%;
+  line-height: 70px;
+}
+
+.nav a{
+  text-decoration: none;
+  color:white;
+  margin: 5px;
+  line-height: 50px;
+}
+
+.nav a:hover{
+  color: #c69200;
+  text-decoration: underline;
+}
+
+header h1{
+  color:white;
+  letter-spacing: 10px;
+}
+
+.information{
+  height: 400px;
+  background-color:#0e2537;
+  width:100%;
+  padding:50px 120px 0;
+  color:white;
+}
+
+.information h4{
+  color:white;
+}
+
+
+.infor{
+  width:25%;
+  float: left;
+  line-height: 10px;
+}
+.infor a{
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.infor-1 h3{
+  text-align: center;
+  letter-spacing: 10px;
+}
+.infor-1{
+padding-right: 40px;
+}
+
+.special{
+  padding-top: 30px;
+}
+.from-tokyo{
+padding-top: 6px;
+}
+.main1{
+  height: 600px;
+  padding-top: 100px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.main2{
+  height: 600px;
+  position: relative;
+}
+
+.container{
+  margin: 0 80px;
+}
+
+.main-img{
+  height:300px;
+
+}
+
+
+
+
+.main{
+  padding :0 40px;
+}
+
+.main1 .text{
+  top:150px;
+  left:450px;
+  position:absolute;
+  width:40%;
+}
+
+.main2 .text{
+  top:150px;
+  left:450px;
+  position:absolute;
+  width:40%;
+}
+.menu p{
+  line-height: 25px;
+  font-family: 游明朝;
+}
+
+.menu-img{
+  width:100%;
+}
+
+.menu-img{
+  height:500px;
+  margin-bottom:30px;
+  opacity: 0.5;
+}
+
+.menu-img:hover{
+  opacity:0.3;
+}
+.coat{
+  position: relative;
+}
+.coat .text{
+  position:absolute;
+  top:120px;
+  margin:0 120px;
+}
+.suit{
+  position: relative;
+}
+
+.suit .text{
+  position:absolute;
+  top:120px;
+  margin:0 120px;
+}
+
+.blazer{
+  position: relative;
+}
+.blazer .text{
+  position:absolute;
+  top:120px;
+  margin:0 120px;
+}
+
+.return-top{
+  background-color: #0e2537;
+  height:30px;
+  text-align: center;
+  line-height: 30px;
+}
+.return-top:hover{
+  opacity:0.8;
+  cursor: pointer;
+}
+
+footer{
+  height:40px;
+  background-color: black;
+}
+
+.footer-left {
+  float:left;
+}
+
+.footer-left a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height:40px ;
+  color:white;
+  margin-left: 20px;
+}
+.footer-right{
+  float:right;
+}
+.footer-right p{
+  font-size: 12px;
+  line-height:;
+  color:white;
+}
